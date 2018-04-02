@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="Aconselhamento">Aconselhamento</string>
+    <string name="Adolescentes">Adolescentes</string>
+    <string name="Alfabetização">Alfabetização</string>
+    <string name="Alimentação">Alimentação</string>
+    <string name="Alvenaria">Alvenaria</string>
+    <string name="Amizade">Amizade</string>
+    <string name="Animais_estimação">Animais estimação</string>
+    <string name="Aniversário">Aniversário</string>
+    <string name="Anuncio">Anuncio</string>
+    <string name="Atividade_física">Atividade física</string>
+    <string name="Arte">Arte</string>
+    <string name="Artesanato">Artesanato</string>
+    <string name="Banho">Banho</string>
+    <string name="Bebê">Bebê</string>
+    <string name="Beleza">Beleza</string>
+    <string name="Bibelôs">Bibelôs</string>
+    <string name="Biblioteca">Biblioteca</string>
+    <string name="Bicicleta">Bicicleta</string>
+    <string name="Brinquedos">Brinquedos</string>
+    <string name="Bijuterias">Bijuterias</string>
+    <string name="Cabelereiro">Cabelereiro</string>
+    <string name="Calçados">Calçados</string>
+    <string name="Caminhada">Caminhada</string>
+    <string name="Campo">Campo</string>
+    <string name="Carnaval">Carnaval</string>
+    <string name="Carona">Carona</string>
+    <string name="Carro">Carro</string>
+    <string name="Casa">Casa</string>
+    <string name="Casamento">Casamento</string>
+    <string name="Celular">Celular</string>
+    <string name="Churrasco">Churrasco</string>
+    <string name="Chuva">Chuva</string>
+    <string name="Cinema">Cinema</string>
+    <string name="Cirurgia">Cirurgia</string>
+    <string name="Clima_tempo">Clima/tempo</string>
+    <string name="Coaching">Coaching</string>
+    <string name="Comida">Comida</string>
+    <string name="Computador">Computador</string>
+    <string name="Condomínio">Condomínio</string>
+    <string name="Confeiteiros">Confeiteiros</string>
+    <string name="Conselho">Conselho</string>
+    <string name="Consertos">Consertos</string>
+    <string name="Construção">Construção</string>
+    <string name="Consultorias">Consultorias</string>
+    <string name="Corrida">Corrida</string>
+    <string name="Costura">Costura</string>
+    <string name="Cozinha">Cozinha</string>
+    <string name="Crianças">Crianças</string>
+    <string name="Crochê">Crochê</string>
+    <string name="Cuidadores">Cuidadores</string>
+    <string name="Cursos">Cursos</string>
+    <string name="Datas_comemorativas">Datas comemorativas</string>
+    <string name="Decoração">Decoração</string>
+    <string name="Dentista">Dentista</string>
+    <string name="Desenho">Desenho</string>
+    <string name="Diarista">Diarista</string>
+    <string name="Direito">Direito</string>
+    <string name="Diversos">Diversos</string>
+    <string name="Doação">Doação</string>
+    <string name="Doces">Doces</string>
+    <string name="Educação">Educação</string>
+    <string name="Eletricista">Eletricista</string>
+    <string name="Eletrônicos">Eletrônicos</string>
+    <string name="Emagrecimento">Emagrecimento</string>
+    <string name="Emprego">Emprego</string>
+    <string name="Empresa">Empresa</string>
+    <string name="Empréstimos">Empréstimos</string>
+    <string name="Enfermagem">Enfermagem</string>
+    <string name="Entretenimento">Entretenimento</string>
+    <string name="Enxoval">Enxoval</string>
+    <string name="Escolas">Escolas</string>
+    <string name="Esporte">Esporte</string>
+    <string name="Estética">Estética</string>
+    <string name="Estrada">Estrada</string>
+    <string name="Eventos">Eventos</string>
+    <string name="Exames_médicos">Exames médicos</string>
+    <string name="Escola">Escola</string>
+    <string name="Fantasias_adereços">Fantasias/adereços</string>
+    <string name="Férias">Férias</string>
+    <string name="Ferramentas">Ferramentas</string>
+    <string name="Festa">Festa</string>
+    <string name="Filmagem">Filmagem</string>
+    <string name="Filmes">Filmes</string>
+    <string name="Finanças">Finanças</string>
+    <string name="Fisioterapia">Fisioterapia</string>
+    <string name="Fitness">Fitness</string>
+    <string name="Flores">Flores</string>
+    <string name="Fotografia">Fotografia</string>
+    <string name="Frete">Frete</string>
+    <string name="Futebol">Futebol</string>
+    <string name="Gastronomia">Gastronomia</string>
+    <string name="Gibis">Gibis</string>
+    <string name="Ginástica">Ginástica</string>
+    <string name="GLBT">GLBT</string>
+
+
+   <!-- - Letra H
+
+    Hospedagem
+    Hotéis
+    Holístico
+
+
+    - Letra I
+
+    Idiomas
+    Idosos
+    Igreja
+    Imóveis
+    indicações
+    Instrumentos
+    Internet
+
+    - Letra J
+
+    Jardinagem
+    Jogos
+    Joias
+    jovens
+    Justiça
+
+    - Letra k
+
+    - Letra L
+
+    Lavanderia
+    Leituras
+    Limpeza
+    Literatura
+    Livros
+
+
+    - Letra M
+
+    Manicure
+    Manuais
+    Mão de obra
+    Maquinas
+    Marcenaria
+    Massagem
+    Matemática
+    Material diversos
+    Material escolar
+    Medicina
+    Médicos
+    Meditação
+    Mercado/alimentos
+    Moda
+    Moto
+    Musculação
+    Música
+    Meio ambiente
+
+    - Letra N
+
+    Natureza
+    Natação
+    Navegação
+    Neve
+    Novelas
+    Nutrição
+
+    - Letra O
+
+    Objetos
+    Óculos
+    Oftalmologista
+    Orientação
+
+    - Letra P
+
+    Papear
+    Parceria
+    Passeios
+    Piscina
+    Plástica
+    Praia
+    Profissões
+    Projetos
+    Psicologia
+    Psicólogo
+    Palestra
+
+
+    - Letra Q
+
+    - Letra R
+
+    Religião
+    Relógios
+    Remédios
+    Reparos diversos
+    Reparos domésticos
+    Restaurante
+    Reveillon
+    Revistas
+    Roupas
+
+    - Letra S
+
+    Salgados
+    Sapatos
+    Saúde
+    Seguros
+    Séries
+    Serviços
+    Som
+    Sonhos
+    Sono
+    Sustentabilidade
+
+    - Letra T
+
+    Tarefas
+    Tatuagens
+    Teatro
+    Tecidos
+    Tecnologia
+    Televisão
+    Tendências
+    Terapia
+    Time
+    Torcida
+    Trabalho
+    Transportes
+    Tratamentos médicos
+    Treinamentos
+    Tricô
+    Trocas
+    Turismo
+
+    - Letra U
+
+    Uniforme escolar
+    Uniforme profissional
+    Utensílios domésticos
+    Utilidades
+
+    - Letra V
+
+    Vegano
+    Vegetariano
+    Viagens
+    Vitaminas
+    Vida saudável
+
+
+
+
+-->
+
+
+
+
+
+
+
+</resources>

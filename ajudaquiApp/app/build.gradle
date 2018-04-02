@@ -1,0 +1,94 @@
+apply plugin: 'com.android.application'
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+    defaultConfig
+            {
+                applicationId 'studio.brunocasamassa.ajudaquioficial'
+                minSdkVersion 16
+                targetSdkVersion 23
+                versionCode 51
+                versionName "1.51"
+                testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+                multiDexEnabled = true
+
+            }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/LICENSE-FIREBASE.txt'
+        exclude 'META-INF/NOTICE'
+    }
+
+    dexOptions {
+        jumboMode = true
+    }
+
+    productFlavors {
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile('com.mikepenz:materialdrawer:5.3.6@aar') {
+        transitive = true
+    }
+
+    compile 'com.github.GrenderG:Toasty:1.2.5'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'com.github.apl-devs:appintro:v4.2.2'
+    compile 'com.android.support:design:25.3.1'
+    compile 'com.heinrichreimersoftware:material-intro:1.6.2'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.android.support:multidex:1.0.1'
+    compile 'com.google.android.gms:play-services-location:9.2.0'
+    compile 'com.firebase:firebase-jobdispatcher:0.6.0'
+    compile 'com.github.clans:fab:1.6.4'
+    compile 'com.facebook.android:facebook-android-sdk:4.+'
+    compile 'com.google.firebase:firebase-database:9.6.1'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'me.himanshusoni.chatmessageview:chat-message-view:1.0.3'
+    compile 'com.google.firebase:firebase-auth:9.6.1'
+    compile 'com.google.firebase:firebase-messaging:9.6.1'
+    compile 'com.google.firebase:firebase-core:9.6.1'
+    compile 'com.google.firebase:firebase-crash:9.6.1'
+    compile 'org.afinal.simplecache:a-simple-cache:1.0'
+    compile 'com.github.delight-im:Android-SimpleLocation:v1.0.1'
+    compile 'com.google.firebase:firebase-storage:9.6.1'
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'org.solovyev.android.views:linear-layout-manager:0.5@aar'
+    compile 'com.github.rtoshiro.mflibrary:mflibrary:1.0.0'
+    compile 'com.android.support:gridlayout-v7:23.1.1'
+    compile 'com.google.code.gson:gson:2.7'
+    compile 'com.android.support:recyclerview-v7:21.0.3'
+    compile 'co.lujun:androidtagview:1.1.4'
+    compile 'org.jsoup:jsoup:1.10.3'
+    compile 'me.gujun.android.taggroup:library:1.4@aar'
+    compile 'com.android.support:support-v4:25.3.1'
+    compile 'com.paypal.sdk:paypal-android-sdk:2.15.3'
+    compile 'com.sun.mail:android-mail:1.5.5'
+    compile 'com.sun.mail:android-activation:1.5.5'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    testCompile 'junit:junit:4.12'
+
+}
+
+apply plugin: 'com.google.gms.google-services'

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/md_grey_200"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="studio.brunocasamassa.ajudaquioficial.fragments.PedidosDisponiveisFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome:"
+        android:id="@+id/textView"
+        android:layout_marginLeft="45dp"
+        android:textColor="@color/md_black_1000"
+        android:layout_marginStart="45dp"
+        android:layout_alignBaseline="@+id/textView15"
+        android:layout_alignBottom="@+id/textView15"
+        android:layout_alignLeft="@+id/ranking_list"
+        android:layout_alignStart="@+id/ranking_list" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pontos:"
+        android:textColor="@color/md_black_1000"
+        android:layout_marginTop="14dp"
+        android:id="@+id/textView15"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/ranking_list"
+        android:layout_alignEnd="@+id/ranking_list"
+        android:layout_marginRight="19dp"
+        android:layout_marginEnd="19dp" />
+
+    <ListView
+        android:id="@+id/ranking_list"
+        android:layout_width="403dp"
+        android:layout_height="300dp"
+        android:scrollbars="none"
+        tools:layout_editor_absoluteX="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textView" />
+
+
+</RelativeLayout>

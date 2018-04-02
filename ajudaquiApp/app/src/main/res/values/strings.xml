@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Ajudaqui</string>
+    <string name="menu_pedidos">Pedidos</string>
+    <string name="menu_chats">Conversas</string>
+    <string name="menu_grupos">Grupos</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_configuracoes">Configurações</string>
+    <string name="menu_sobre">Sobre</string>
+    <string name="action_settings">Configurações</string>
+    <string name="exit">Logout</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="facebook_app_id">291063514653262</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="search_hint">insira uma uma palavra</string>
+    <string name="menu_refresh">Atualizar</string>
+    <string name="select_picture_title">Get Photo From</string>
+    <string name="medalha1_message">Yeah! Você atendeu o primeiro pedido. Que legal!!</string>
+    <string name="medalha1_title">primeiro pedido</string>
+    <string name="medalha2_message">Uau! Você já atendeu 3 pedidos. Continue assim :D</string>
+    <string name="medalha2_title">3 Pedidos</string>
+    <string name="medalha3_message">Você já é um expert! São 10 pedidos atendidos!!</string>
+    <string name="medalha3_title">10 Pedidos</string>
+    <string name="medalha4_message">Parabens, voce criou seu primeiro pedido</string>
+    <string name="medalha4_title">Primeiro Pedido Criado</string>
+    <string name="medalha5_message">Você esta com tudo hein? Você já teve 3 pedidos atendidos</string>
+    <string name="medalha5_title">3 Pedidos Atendidos</string>
+    <string name="medalha6_message">Sensacional, 10 pessoas te ajudaram</string>
+    <string name="medalha6_title">10 Pedidos Atendidos</string>
+    <string name="medalha7_message">Muito bem! Você entrou no seu primeiro grupo!</string>
+    <string name="medalha7_title">Primeiro Grupo</string>
+    <string name="medalha8_message">Você está ficando bom nisso hein? Você já faz parte de 3 grupos</string>
+    <string name="medalha8_title">Participou de 3 grupos</string>
+    <string name="medalha9_message">Que fantástico!São 10 grupos que você participa</string>
+    <string name="medalha9_title">Participou de 10 grupos</string>
+</resources>

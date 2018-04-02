@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_donation_activity"
+        android:layout_width="420dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorBackground"
+        android:elevation="20dp"
+        android:visibility="visible"
+        app:elevation="20dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:title="Detalhe do Pedido"
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteY="0dp"></android.support.v7.widget.Toolbar>
+
+    <TextView
+        android:id="@+id/nome_doacao"
+        android:layout_width="294dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/descricao_doacao"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar_donation_activity"
+        tools:text="Nome Pedido"
+        android:layout_marginEnd="18dp" />
+
+    <TextView
+        android:id="@+id/descricao_doacao"
+        android:layout_width="294dp"
+        android:layout_height="167dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:text="Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé"
+        android:textColor="@android:color/black"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="@+id/nome_doacao"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nome_doacao"
+        tools:text="Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé"
+        android:layout_marginEnd="8dp" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="450dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="239dp"
+        android:background="#c0c0c0"
+        app:layout_constraintBottom_toTopOf="@+id/donation_button"
+        tools:layout_editor_absoluteX="-18dp" />
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="70dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="15dp"
+        android:text="TAGS"
+        android:textColor="#c0c0c0"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        tools:text="TAGS"
+        android:layout_marginStart="32dp" />
+
+    <me.gujun.android.taggroup.TagGroup
+        android:id="@+id/tags_pedido_categoria"
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="53dp"
+        app:atg_backgroundColor="@color/md_white_1000"
+        app:atg_borderColor="@android:color/darker_gray"
+        app:atg_textColor="@android:color/darker_gray"
+        app:atg_textSize="15dp"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        android:layout_marginEnd="8dp"></me.gujun.android.taggroup.TagGroup>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="450dp"
+        android:layout_height="2dp"
+        android:layout_marginBottom="174dp"
+        android:background="#c0c0c0"
+        app:layout_constraintBottom_toBottomOf="parent"
+<<<<<<< HEAD
+        tools:layout_editor_absoluteX="-32dp" />
+=======
+        tools:layout_editor_absoluteX="-30dp" />
+>>>>>>> c143454de42efeeca8bf8931f097315860f35714
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="70dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="14dp"
+        android:text="GRUPO"
+        android:textColor="#c0c0c0"
+        android:textSize="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        tools:text="GRUPO"
+        android:layout_marginStart="32dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circle_img_group"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        app:civ_border_color="@color/md_grey_400"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintLeft_toLeftOf="@+id/textView22"
+        app:layout_constraintRight_toRightOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textView22"
+        android:layout_marginEnd="8dp" />
+
+    <TextView
+        android:id="@+id/text_name_group"
+        android:layout_width="247dp"
+        android:layout_height="27dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/circle_img_group"
+        app:layout_constraintLeft_toRightOf="@+id/circle_img_group"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/circle_img_group"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp" />
+
+    <Button
+        android:id="@+id/donation_button"
+<<<<<<< HEAD
+        android:layout_width="match_parent"
+=======
+        android:layout_width="0dp"
+>>>>>>> c143454de42efeeca8bf8931f097315860f35714
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/colorBackground"
+        android:text="ATENDER PEDIDO"
+        android:textAlignment="center"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:text="ATENDER PEDIDO"
+        android:layout_marginBottom="1dp"
+<<<<<<< HEAD
+        android:layout_marginLeft="0dp"
+=======
+>>>>>>> c143454de42efeeca8bf8931f097315860f35714
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

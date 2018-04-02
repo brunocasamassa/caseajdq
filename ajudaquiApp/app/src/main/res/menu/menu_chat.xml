@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <!--  <item
+        android:id="@+id/send_file"
+        android:orderInCategory="100"
+        android:title="Enviar Imagem"/>-->
+
+
+    <item
+        android:id="@+id/action_exit"
+        android:orderInCategory="200"
+        android:title="@string/exit"
+        app:showAsAction="never" />
+
+
+</menu>

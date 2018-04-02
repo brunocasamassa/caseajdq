@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_donation_activity"
+        android:layout_width="420dp"
+        android:layout_height="54dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorBackground"
+        android:visibility="visible"
+        app:titleTextColor="@android:color/white"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginRight="-21dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:elevation="20dp"
+        app:elevation="20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"></android.support.v7.widget.Toolbar>
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Nome Pedido"
+       tools:text="Nome Pedido"
+       android:textSize="30dp"
+       android:textColor="@color/colorBackground"
+       android:layout_marginLeft="32dp"
+       app:layout_constraintLeft_toLeftOf="parent"
+       android:layout_marginStart="32dp"
+       android:id="@+id/nome_doacao"
+       android:layout_marginTop="20dp"
+       app:layout_constraintTop_toBottomOf="@+id/toolbar_donation_activity"
+       android:layout_marginRight="8dp"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintHorizontal_bias="0.0" />
+
+    <TextView
+        android:layout_width="294dp"
+        android:layout_height="167dp"
+        android:textColor="@android:color/black"
+        android:text="Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé"
+        tools:text="Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé Atmos prothos darthus redmis def akbhar let sharmut aire feik prostagma rulamé"
+        android:id="@+id/descricao_doacao"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@+id/nome_doacao"
+        android:layout_marginLeft="0dp"
+        app:layout_constraintLeft_toLeftOf="@+id/nome_doacao"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <View
+        android:layout_width="450dp"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:id="@+id/view2"
+        tools:layout_editor_absoluteX="-20dp"
+        android:layout_marginBottom="233dp"
+        app:layout_constraintBottom_toTopOf="@+id/donation_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:textColor="#c0c0c0"
+        tools:text="ENDEREÇO"
+        android:text="ENDEREÇO"
+        android:textSize="20dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:id="@+id/endereco_activitydoacao"
+        android:layout_marginRight="50dp"
+        app:atg_backgroundColor="@color/colorBackground"
+        app:atg_textColor="@android:color/white"
+        app:atg_textSize="15dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="53dp"
+        app:layout_constraintTop_toBottomOf="@+id/view2"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/textView14"
+        app:layout_constraintHorizontal_bias="0.0"></TextView>
+
+    <View
+        android:layout_width="450dp"
+        android:layout_height="2dp"
+        android:background="#c0c0c0"
+        android:id="@+id/view3"
+        tools:layout_editor_absoluteX="-30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="153dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="27dp"
+        android:textColor="#c0c0c0"
+        tools:text="CONTATO"
+        android:text="CONTATO"
+        android:textSize="20dp"
+        android:layout_marginTop="14dp"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:layout_width="329dp"
+        android:layout_height="50dp"
+        android:id="@+id/donationContact_activitydoacao"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="48dp"
+        app:layout_constraintTop_toBottomOf="@+id/view3"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"></TextView>
+
+    <Button
+        android:id="@+id/donation_button"
+        android:layout_width="415dp"
+        android:layout_height="48dp"
+        android:text="ATENDER PEDIDO"
+        android:background="@color/colorBackground"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        tools:text="ATENDER PEDIDO"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="-2dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+</android.support.constraint.ConstraintLayout>

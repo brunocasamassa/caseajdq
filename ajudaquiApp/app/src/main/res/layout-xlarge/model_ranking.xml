@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_border_color="@color/ColorGrey"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/circleImageView2"
+        android:layout_alignTop="@+id/ranked_place"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <TextView
+        android:id="@+id/ranked_place"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:elevation="20dp"
+        android:text="0"
+        android:textSize="23dp"
+        android:textAlignment="center"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/ranking_name"
+        android:layout_toStartOf="@+id/ranking_name"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/circleImageView2"
+        app:layout_constraintTop_toTopOf="@+id/circleImageView2"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/circleImageView2"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintVertical_bias="0.555"
+        app:layout_constraintRight_toLeftOf="@+id/ranking_name"
+        android:layout_marginRight="8dp"></TextView>
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:id="@+id/ranking_name"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/circleImageView2"
+        android:layout_toEndOf="@+id/circleImageView2"
+        tools:layout_editor_absoluteY="13dp"
+        tools:layout_editor_absoluteX="50dp" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationY="10dp"
+        android:textColor="@color/colorBackground"
+        android:id="@+id/ranking_points"
+        android:layout_alignBaseline="@+id/ranking_name"
+        android:layout_alignBottom="@+id/ranking_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="250dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+    
+    
+
+</android.support.constraint.ConstraintLayout>
+

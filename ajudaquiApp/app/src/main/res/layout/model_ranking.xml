@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/linear_ranking"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+<!--    <de.hdodenhof.circleimageview.CircleImageView
+        app:civ_border_color="@color/ColorGrey"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/circleImageView2"
+        android:layout_alignTop="@+id/ranked_place"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintLeft_toLeftOf="parent" />-->
+
+    <TextView
+        android:id="@+id/ranked_place"
+        android:layout_width="25dp"
+        android:translationX="5dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/ranking_name"
+        android:layout_weight="0.04"
+        android:background="@drawable/round_ranking"
+        android:elevation="20dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@color/ColorGrey"
+        android:textSize="23dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_weight="1"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="8dp"
+        android:translationY="-3dp"
+        android:id="@+id/ranking_name"
+        android:layout_alignTop="@+id/ranked_place"
+        android:layout_toRightOf="@+id/circleImageView2"
+        android:layout_toEndOf="@+id/circleImageView2" />
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:translationY="10dp"
+        android:textColor="@color/colorBackground"
+        android:id="@+id/ranking_points"
+        android:layout_alignBaseline="@+id/ranking_name"
+        android:layout_alignBottom="@+id/ranking_name"
+        android:layout_alignLeft="@+id/ranking_name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        tools:layout_editor_absoluteY="0dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</LinearLayout>
+

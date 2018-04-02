@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/md_grey_200"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="studio.brunocasamassa.ajudaquioficial.fragments.GruposTodosgruposFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.SwipeRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/swiperefresh"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <GridView
+        android:id="@+id/allgroups_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="6dp"
+        android:columnWidth="80dp"
+        android:gravity="center"
+        android:numColumns="2"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        tools:layout_editor_absoluteY="0dp" />
+</android.support.v4.widget.SwipeRefreshLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+android:layout_width="match_parent"
+android:orientation="vertical"
+xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:id="@+id/notify_img"
+        android:layout_width="100dp"
+        android:layout_height="73dp"
+        android:layout_gravity="top"
+        app:srcCompat="@drawable/logo_notify"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/notify_description"
+        android:layout_width="286dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="15sp"
+        android:layout_alignTop="@+id/notify_img"
+        android:layout_toRightOf="@+id/notify_img"
+        android:layout_toEndOf="@+id/notify_img" />
+
+
+</RelativeLayout>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="studio.brunocasamassa.ajudaquioficial">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+
+    <uses-feature android:name="android.hardware.location.gps" />
+
+
+    <application
+        android:largeHeap="true"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_big"
+        android:label="@string/app_name"
+        android:hardwareAccelerated="true"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.StarsBar"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.payment.ConfirmationActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.DoacaoCriadaActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.helper.MainIntroActivity"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.TagsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.FullScreenImageActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.ListaAdmins"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.PedidosActivity"
+            android:largeHeap="true"
+            android:screenOrientation="portrait">
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable"></meta-data>
+
+        </activity>
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.FaqActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.helper.PedidoCriadoActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.CriaPedidoActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.PerfilActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.helper.PedidoAtendidoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.CadastroActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.ChatActivity"
+            android:screenOrientation="portrait" />
+
+        <fragment
+            android:name=".GruposTodosgruposFragment"
+            android:screenOrientation="portrait" />
+        <fragment
+            android:name=".GruposMeusgruposFragment"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.GrupoFechadoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.ConfiguracoesActivity"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.GruposActivity"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.PedidoAddGroupsList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.helper.PedidoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.GrupoAbertoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.CriaGrupoActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.CabineFarturaActivity"
+            android:largeHeap="true"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.CriaDoacaoNaCabineActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.SobreActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.PerfilGruposActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.ConversasActivity"
+            android:screenOrientation="portrait" />
+        <!--.MainActivity-->
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.CriaDoacaoActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.payment.PaymentActivity3"
+            android:screenOrientation="portrait"></activity>
+
+        <activity
+            android:name="studio.brunocasamassa.ajudaquioficial.payment.TermosActivity"
+            android:screenOrientation="portrait"></activity>
+
+        <activity android:name="studio.brunocasamassa.ajudaquioficial.SearchableActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@layout/searchable" />
+        </activity>
+
+        <activity android:name="studio.brunocasamassa.ajudaquioficial.PurchaseActivity" />
+
+        <service android:name="studio.brunocasamassa.ajudaquioficial.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <service android:name="studio.brunocasamassa.ajudaquioficial.MyFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+    </application>
+
+</manifest>

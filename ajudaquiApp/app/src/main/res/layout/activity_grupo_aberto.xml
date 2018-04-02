@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_principal_grupoaberto"
+        android:layout_width="match_parent"
+        android:elevation="20dp"
+        android:layout_height="50dp"
+        android:background="@color/colorBackground"
+        android:weightSum="1"
+        app:titleTextColor="@android:color/white">
+
+        <ImageButton
+            android:id="@+id/edit_groupName_button"
+            android:layout_width="wrap_content"
+            android:layout_height="29dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="9dp"
+            android:background="@drawable/trans"
+            android:elevation="30dp"
+            android:src="@drawable/ic_edit_groupname"
+            tools:layout_editor_absoluteY="12dp" />
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:elevation="20dp"
+        android:background="@color/colorBackground">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:elevation="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:drawingCacheQuality="high"
+            app:civ_border_color="@android:color/transparent"/>
+    </RelativeLayout>
+
+
+    <studio.brunocasamassa.ajudaquioficial.helper.SlidingTabLayout
+        android:id="@+id/stl_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/vp_pagina"
+        android:elevation="20dp"
+        android:background="@color/colorBackground"
+        app:titleTextColor="@android:color/white"></studio.brunocasamassa.ajudaquioficial.helper.SlidingTabLayout>
+
+    <RelativeLayout
+        android:id="@+id/activity_crear_entrenamiento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_pagina"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@android:color/background_light"></android.support.v4.view.ViewPager>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/pedido_fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:visibility="visible"
+            android:layout_gravity="bottom|start"
+            android:elevation="5dp"
+            android:src="@drawable/fab_add"
+            app:backgroundTint="@color/colorAccent"
+            app:fabSize="normal"
+            android:layout_marginBottom="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:translationY="-10dp"
+            android:translationX="-10dp"
+             />
+
+</RelativeLayout>
+
+
+</LinearLayout>
+

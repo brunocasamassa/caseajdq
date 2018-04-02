@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="10dp"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_chat_contact"
+        android:layout_width="80dp"
+        android:layout_height="68dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        android:layout_marginTop="9dp"
+        app:srcCompat="@android:anim/accelerate_interpolator" />
+
+    <TextView
+        android:id="@+id/notification_count"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/last_message"
+        android:layout_alignEnd="@+id/time_chat"
+        android:layout_alignRight="@+id/time_chat"
+        android:layout_below="@+id/name_chat_contact"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="@drawable/trans"
+        android:textSize="15dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/name_chat_contact"
+        android:layout_width="286dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/last_message"
+        android:layout_gravity="center"
+        android:layout_toEndOf="@+id/img_chat_contact"
+        android:layout_toRightOf="@+id/img_chat_contact"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="Contact Name"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/black"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/last_message"
+        android:layout_width="286dp"
+        android:layout_height="35dp"
+        android:layout_gravity="center"
+        android:maxLength="30"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp"
+        android:text="Last Message"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15sp"
+        android:layout_alignBottom="@+id/img_chat_contact"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/img_chat_contact"
+        android:layout_toEndOf="@+id/img_chat_contact" />
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="300dp"
+        android:layout_height="1dp"
+        android:layout_alignTop="@+id/name_chat_contact"
+        android:layout_marginTop="80dp"
+        android:layout_toEndOf="@+id/img_chat_contact"
+        android:layout_toRightOf="@+id/img_chat_contact"
+        android:background="#c0c0c0" />
+
+    <TextView
+        android:id="@+id/time_chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:clickable="false"
+        android:ems="10"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="left"
+        android:inputType="time"
+        android:text="00:00"
+        android:textAlignment="viewEnd"
+        android:layout_alignBaseline="@+id/name_chat_contact"
+        android:layout_alignBottom="@+id/name_chat_contact"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_mainactivity"
+    tools:context="studio.brunocasamassa.ajudaquioficial.MainActivity">
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/entrar"
+        android:layout_alignEnd="@+id/entrar"
+        android:layout_alignStart="@+id/entrar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="12dp"
+        android:elevation="9dp"
+        android:textColor="@color/com_facebook_button_background_color_focused"
+        tools:ignore="UnusedAttribute" />
+
+    <ImageButton
+        android:id="@+id/entrar"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:color/background_light"
+        android:text="Cadastrar"
+        android:elevation="9dp"
+        android:textColor="@color/colorBackground"
+        android:textSize="30dp"
+        android:src="@drawable/cadastro_button"
+        android:textStyle="bold"
+        android:layout_above="@+id/loginButton"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:id="@+id/loginButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:src="@drawable/login_button"
+        android:layout_marginBottom="19dp"
+        android:background="@color/colorBackground"
+        android:elevation="9dp"
+        android:text="LOGIN"
+        android:textColor="@android:color/background_light"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/entrar"
+        android:layout_alignStart="@+id/entrar" />
+</RelativeLayout>
